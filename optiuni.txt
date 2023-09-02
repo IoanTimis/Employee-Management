@@ -1,0 +1,9 @@
+Observatii!
+Pt a rula cum trebuie programul trebuie sa aiba 2 argumente obligatorii,unul
+fiind numele fisierului in care se salveaza angatii si unu oarecare.
+
+adauga Iliescu Ion Presedinte 50 2000 30
+cauta * * * 0 0 0
+sterge 30
+afisare
+actualizare 30 Test Test actualizare 100 4000 15
