@@ -6,3 +6,8 @@ functionalitati:
 4. Afisare: Afisarea tuturor angajatilor.
 5. Actualizare: Angajatul poate fi Actualizat complet.
 6. Afisare Owner.
+7. Programul poate functiona in totalitate cu argumente din consola.
+
+Obervatii!
+
+Programul necesita cel putin 2 argumente pt a rula, numele fisierului unde sunt scrise datele (in acest caz angajati.txt) si unul oarecare.
