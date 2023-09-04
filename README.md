@@ -1,4 +1,4 @@
-Acesta este un proiect simplu  despre managementul angatilor, facut de mine in primul an din universitate.                                                                
+Acesta este un proiect simplu despre managementul angajatilor, facut de mine.                                                              
 functionalitati: 
 1. Adaugare: Angajatul poate fi adaugat cu urm date:nume,prenume,varsta,post,salariu,id.
 2. Cautare: Angajatul\angajatii pot fi cautati dupa oricare dintre informatiile lor.
