@@ -13,9 +13,9 @@ Acesta este un proiect simplu despre managementul angajatilor, facut de mine.
 Programul necesita cel putin 2 argumente pt a rula, numele fisierului unde sunt scrise datele (in acest caz angajati.txt) si unul oarecare.
 
 #### Aceasta este o poza cu ecranul care este afisat cand deschidem proiectul.
-![Ecran_deschidere](C:\Ioan\Facultate\Teme si proiecte\temepp\C++\Proiect_Final_C++_Timis-Ioan\img\Ecran_deschidere.png)
+![Ecran_deschidere](img\Ecran_deschidere.png)
 
 #### Aceasta este o poza cu optiunea "Afisare angajati".
 
-![Afisare_angajati](C:\Ioan\Facultate\Teme si proiecte\temepp\C++\Proiect_Final_C++_Timis-Ioan\img\Ecran_afisare.png)
+![Afisare_angajati](img\Ecran_afisare.png)
 
