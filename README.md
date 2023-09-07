@@ -12,4 +12,3 @@ Acesta este un proiect simplu despre managementul angajatilor, facut de mine.
 #### Obervatii!
 Programul necesita cel putin 2 argumente pt a rula, numele fisierului unde sunt scrise datele (in acest caz angajati.txt) si unul oarecare.
 
-![Ecran_deschidere](C:\Ioan\Facultate\Teme si proiecte\temepp\C++\Proiect_Final_C++_Timis-Ioan\img\Ecran_deschidere.png)
