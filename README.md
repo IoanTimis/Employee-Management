@@ -19,5 +19,5 @@ Programul necesita cel putin 2 argumente in linia de comanda pt a rula, numele f
 
 #### Aceasta este o poza cu optiunea "Afisare angajati".
 
-![Afisare_angajati](https://github.com/IoanTimis/Employee-Management/blob/main/img/11.png)
+![Afisare_angajati](https://github.com/IoanTimis/Employee-Management/blob/main/img/Ecran_afisare.png)
 
