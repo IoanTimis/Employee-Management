@@ -1,4 +1,4 @@
-6
+5
 Vasile
 Caramida
 Zidar
@@ -23,12 +23,6 @@ test
 2
 2
 34
-Test
-Vasile
-adaugare
-2000
-50
-30
 Iliescu
 Ion
 Presedinte
