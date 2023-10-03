@@ -1,4 +1,4 @@
-5
+6
 Vasile
 Caramida
 Zidar
@@ -29,3 +29,9 @@ Presedinte
 2000
 50
 30
+test
+test
+test
+1
+1
+10

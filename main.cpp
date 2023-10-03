@@ -76,31 +76,49 @@ void Angajat::afisare()
          " de ani, Postul: " << getpost() << ", Salariul: " << getsalariu() <<" de lei";
     }
 
+vector<Angajat> angajati;
 
 istream& operator >> (istream& is, Angajat& var )
 {
     //is >> var.nume >> var.prenume >> var.post >>var.salariu >> var.varsta >> var.id;
+    // Un if fara acolade se aplica doar primei instructiune de sub el
     if(&is == &cin)
-    cout << "Nume: \n";
+        cout << "Nume: \n";
     is >> var.nume;
     if(&is == &cin)
-    cout << "Prenume: \n";
+        cout << "Prenume: \n";
     is >> var.prenume;
     if(&is == &cin)
-    cout << "Post: \n";
+        cout << "Post: \n";
     is >> var.post;
     if(&is == &cin)
-    cout << "Salariu: \n";
+        cout << "Salariu: \n";
     is >> var.salariu;
     if(&is == &cin)
-    cout << "Varsta: \n";
+        cout << "Varsta: \n";
     is >> var.varsta;
-    if(&is == &cin)
-    cout << "Id: \n";
-    is >> var.id;
+    while (true)
+    {
+        if(&is == &cin)
+            cout << "Id: \n";
+        is >> var.id;
+        bool f = false;
+        for(int i = 0 ; i < angajati.size();++i)
+        {
+            if(angajati[i].id == var.id)
+            {
+                f = true;
+                cout << "Id-ul ("<< var.id <<") exista deja la un alt angajat!\n";
+                break;
+            }
+        }
 
-
-
+        if(f == false)
+        {
+            break;
+        }
+    }
+    
     return is;
 }
 
@@ -131,8 +149,6 @@ int Persoana::getvarsta()
 {
     return varsta;
 }
-
-vector<Angajat> angajati;
 
 void citireFisier(char* _fisier)
 {
@@ -266,7 +282,7 @@ void afisare(int x)
         system("pause");
     }
 
-actualizare()
+void actualizare()
 {
     cout << "Actualizare angajat\n";
     cout << "Introduce id-ul angajatului pe care vrei sa-l actualizezi:\n ";
